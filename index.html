@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #home .hero-slider-1 {
+  filter: brightness(0.5);
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Grilli - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Top Astrologer</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          31/6, Brindabon Mullick Lane, Kadamtala, Howrah-1
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+916289644519" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 628 964 4519</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:sreepartha9@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">sreepartha9@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="10" alt="error">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="error">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Services</span>
+            </a>
+          </li>
+
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            31/6, Brindabon Mullick Lane, <br>
+            Kadamtala, Howrah-1, India
+          </address>
+
+          <p class="body-4 navbar-text">Open: 8.00 am - 10.00 pm</p>
+
+          <a href="mailto:sreepartha9@gmail.com" class="body-4 sidebar-link">sreepartha9@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+6289644519" class="body-1 contact-number hover-underline">
+            +91-628-9644519
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="tel:+916289644519" class="btn btn-secondary">
+        <span class="text text-1">Call Now</span>
+
+        <span class="text text-2" aria-hidden="true">Call Now</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">India's Top Astrologer</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Acharya Sree Partha <br>
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Expert in Vedic Astrology, K.P. Astrology, Vastu & Spiritual Healing
+            </p>
+
+            <a href="tel:+6289644519" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Call Now</span>
+
+              <span class="text text-2" aria-hidden="true">Call Now</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Jyotish Samrat</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Gold Medalist
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              One of the top famous astrologers in India
+            </p>
+
+            <a href="tel:+6289644519" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Contact Now</span>
+
+              <span class="text text-2" aria-hidden="true">Contact Now</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Blessed with intuitive powers</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Acharya Sree Partha
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Giving simple, effective and practical solutions which helps in modifying one's destiny & that individual is showered with luck
+            </p>
+
+            <a href="https://wa.me/+917278154530" target="_blank" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Book a Consultation</span>
+
+              <span class="text text-2" aria-hidden="true">Book a Consultation</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="https://wa.me/+917278154530" target="_blank" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Consult</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Gold Medalist</p>
+
+          <h2 class="headline-1 section-title">Best Vedic & K.P. Astrologer</h2>
+
+          <p class="section-text">
+            He is expert in Vedic Astrology, K.P. Astrology, Vastu & Spiritual Healing. Blessed with intuitive powers, he commenced his journey as an astrologer. He has been making predictions since he was of age 30.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">The most Trusted name in the field of Astrology</h2>
+
+            <p class="section-text">
+              Solved problems of more than thousands of people
+            </p>
+
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+916289644519" class="body-1 contact-number hover-underline">+91 628 964 4519</a>
+
+            <a href="https://wa.me/+917278154530" target="_blank" class="btn btn-primary">
+              <span class="text text-1">Click to Whatsapp</span>
+
+              <span class="text text-2" aria-hidden="true">Click to Whatsapp</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" 
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label" id="menu">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Expertise</p>
+
+            <h2 class="headline-1 section-title">Horoscope Reading</h2>
+
+            <p class="section-text">
+              Your horoscope is a prediction of events which will happen to you in the future. Get your Horoscope Reading now!
+            </p>
+
+            <div class="wrapper">
+
+              <span class="span body-1">₹1100.00</span>
+            </div>
+
+            <a href="tel:+916289644519" class="btn btn-primary">
+              <span class="text text-1">Consult</span>
+
+              <span class="text text-2" aria-hidden="true">Consult</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Special Offer</p>
+
+            <h2 class="headline-1 section-title">Buy Astrological Gemstone and get one Horoscope Reading Free!</h2>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/mixed-cut-astrology-ceylon-yellow-sapphire-1000x1000.jpeg" width="570" height="570" loading="lazy" 
+              class="w-101">
+            
+          </figure>
+
+  
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/pexels-8moments-1323550 (1).jpg')" backaria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            I want to thank Acharya Sree Partha, a very genuine person. I am very satisfied with his work. After his guidance I have seen growth in my business.
+            extraordinary.
+          </p>
+          
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+         <div class="quote">”</div>
+
+         <p class="headline-2 testi-text">
+          Well experienced in his domain with a good sense of professionalism. I booked an online consultation with him and satisfied with his prediction as per my birth chart .
+        </p>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Him</p>
+
+          <h2 class="headline-1 section-title">Strength</h2>
+
+          <ul class="grid-list">
+
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Friendly Behaviour</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Guarenteed Satisfaction</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            31/6, Brindabon Mullick Lane, Kadamtala, Howrah-1
+          </address>
+
+          <a href="mailto:sreepartha9@gmail.com" class="body-4 contact-link">sreepartha9@gmail.com</a>
+
+          <a href="tel:+916289644519" class="body-4 contact-link">Call : +91-628-9644519</a>
+
+          <p class="body-4">
+            Open : 08:00 am - 10:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+        </div>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.facebook.com/acharyasreepartha.porel?mibextid=ZbWKwL" target="_blank" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/shreepartha/?hl=en" target="_blank" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/@acharyasreepartha820?si=_WKAKMPaCSuAQ5zW" target="_blank" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/vD7xq2UHevuGLMhN8" target="_blank" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Acharya Sree Partha. All rights reserved.</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
